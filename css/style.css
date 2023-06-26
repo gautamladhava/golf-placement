@@ -1,0 +1,275 @@
+/* coman css */
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+.container {
+    max-width: 1440px;
+}
+
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+a {
+    display: inline-block;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 40px;
+    color: #ffffff;
+}
+
+h2 {
+    color: #565656;
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 10 px;
+}
+
+h4 {
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.stafmember-section .member-block h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.stafmember-section .member-block {
+    align-items: center;
+}
+
+
+.btn.btn-success {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+/* header */
+.head-block {
+    align-items: center;
+}
+
+.head-block .menu .hamburger:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    justify-content: end;
+}
+
+.navbar .navbar-expand-lg .justify-content-end .navbar-toggler {
+    align-items: end;
+}
+
+.head-block .menu .navbar-nav.navigation {
+    align-items: center;
+}
+
+
+
+ .head-block .navbar-toggler.hamburger {
+    border: none;
+}
+
+ .head-block .phone-icone {
+    color: #68a00d;
+}
+
+.head-block .navbar .navbar-expand-lg {
+    text-align: right;
+}
+
+.head-block .navbar .navbar-expand-lg .collapse .navbar-collapse {
+    justify-content: end;
+}
+
+.head-block .number .call a {
+    text-decoration: none;
+    font-size: 22px;
+    color: #88c425;
+}
+
+.head-block .number .call {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.head-block .number {
+    align-items: center;
+    justify-content: end;
+}
+
+ .head-block .nav-block ul li a {
+    font-size: 15px;
+    color: #565656;
+}
+.head-block .nav-item.call {
+    display: none;
+}
+
+/* hero-banner */
+.hero-banner {
+    background-image: url(../images/banner01.jpg);
+    /* min-height: 450px; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    /* display: flex; */
+    align-items: center;
+    padding: 60px 0px;
+}
+
+.hero-banner .welcome-box {
+    justify-content: center;
+}
+
+.hero-banner .welcome-box .content-box p {
+    font-size: 24px;
+    line-height: 1.2;
+    padding: 15px;
+    color: #ffffff;
+    background-color: rgb(28, 28, 28, 0.5);
+    margin-bottom: 20px;
+}
+
+.hero-banner .welcome-box .btn.btn-color.btn-sm {
+    background-color: #ffffff;
+    color: #68a00d;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+/* ABOUT-BOX */
+.about-golf-placement {
+    padding: 50px 0;
+}
+
+.about-golf-placement .about-box {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-golf-placement .about-box p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 25px 0px;
+}
+
+
+/* stafmember-section */
+.stafmember-section {
+    background-image: url(../images/background01.jpg);
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.stafmember-section .member-block .card img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    object-fit: contain;
+}
+
+.stafmember-section .member-block .staf-block {
+    align-items: center;
+}
+
+.stafmember-section .member-block .row {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px
+}
+
+.stafmember-section .card .card-body p {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.partnerships-block .title-box h2 {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.partnerships-block {
+    text-align: center;
+    padding: 30px 0px;
+}
+
+.partnerships-block .photo-block ul {
+    display: flex;
+    justify-content: center;
+}
+
+.partnerships-block .photo-block ul {
+    list-style: none;
+    display: flex;
+    margin: 0px -10px;
+}
+
+.partnerships-block .photo-block ul li {
+    padding: 0px 10px;
+}
+
+.partnerships-block .photo-block ul li img a {
+    border: 1px solid rgb(28, 28, 28, 0.3);
+    padding: 15px;
+}
+
+.nav ul li a {
+    font-size: 15px;
+    color: #ffffff;
+}
+
+footer .content-box {
+    font-size: 14px;
+    color: #ffffff;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+
+.hero-banner .content-box {
+    margin: 20px 0px;
+}
+
+.member-block .card {
+    background: transparent;
+    border: none;
+    width: 100% !important;
+}
+
+.row ul li:hover {
+    color: green;
+}
+
+.row {
+    align-items: center;
+}
